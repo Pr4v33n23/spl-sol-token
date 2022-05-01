@@ -1,12 +1,15 @@
-import React from 'react';
-import './App.css';
-import MintToken from './components/MintToken';
-
+import React from "react";
+import "./App.css";
+import MintNFT from "./components/MintNFT";
+import MintToken from "./components/MintToken";
+import SendSol from "./components/SendSol";
 
 function App() {
   return (
-    <div className="App">
-      <MintToken/>
+    <div className="flex justify-center flex-col">
+      <MintToken />
+      <MintNFT />
+      <SendSol/>
     </div>
   );
 }
